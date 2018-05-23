@@ -2,71 +2,41 @@
 
 Real Estate Management Application
 
-### Installing
+### Requirement
 
-Clone 
+* Apache Web Server
+* PHP 5.3.2 or above
+* MySQL
+
+### Installing 
+
+Clone IDeyProp
+```
+git init
+git pull origin https://github.com/enochval/IDeyProp.git
 ```
 
-```
+### Configuration
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Set environment variable
 
 ```
-Give an example
+Rename .env.example to .env
+set your database coneection settings
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+Run Application
 
 ```
-Give an example
+php -S localhost:8000 -t public
 ```
 
-## Deployment
 
-Add additional notes about how to deploy this on a live system
+### Built With
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* [Lumen](https://lumen.laravel.com/docs/5.6) - The web framework used
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
